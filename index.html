@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#f0f0f0">
+    <meta name="description" content="The Pirate Bay App">
+    <title>The Pirate Bay</title>
+    <link rel="stylesheet" type="text/css" href="./css/base.min.css">
+    <link rel="shortcut icon" type="image/png" href="favicon.ico">
+    <link rel="apple-touch-icon" href="./img/logo-180.png">
+    <link rel="manifest" href="./manifest.json">
+</head>
+<body>
+    <div id="search_container">
+        <!-- TODO: Replace with SVG -->
+        <div class="logo"></div>
+
+        <div class="input" data-page-controls="0">
+            <input type="text" placeholder="Pirate Search" id="search_input">
+            <button id="page_decrease" title="Previous Page"></button>
+            <div id="page_number" title="Page Number">1</div>
+            <button id="page_increase" title="Next Page"></button>
+            <button id="search_button" title="Search"></button>
+        </div>
+    </div>
+
+    <div id="search_results" data-hidden="0">
+    <!--
+        <table id="table_data">
+            <thead>
+                <tr>
+                    <td class="w-50">Name</td>
+                    <td>Uploaded</td>
+                    <td>Size</td>
+                    <td>Seeders/Leechers</td>
+                    <td>Author</td>
+                    <td>Actions</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="w-50">{name}</td>
+                    <td>{uploaded}</td>
+                    <td>{size}</td>
+                    <td>{seeders_leechers}</td>
+                    <td>{author}</td>
+                    <td><a href="#dummy" title="Open Magnet Link"><button class="action magnet"></button></a></td>
+                </tr>
+            </tbody>
+        </table>
+    -->
+    </div>
+
+    <div id="error_message" data-hidden="1">
+        <h1>Error</h1>
+        <p>Message</p>
+    </div>
+
+    <script type="text/javascript" src="./js/app.min.js"></script>
+</body>
+</html>

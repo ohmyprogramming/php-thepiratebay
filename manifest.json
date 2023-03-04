@@ -1,0 +1,44 @@
+{
+    "short_name": "The Pirate Bay",
+    "name": "The Pirate Bay",
+    "icons": [
+        {
+            "src": "/img/logo-64.png",
+            "type": "image/png",
+            "sizes": "64x64"
+        },
+        {
+            "src": "/img/logo-128.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "/img/logo-192.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/img/logo-256.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "/img/logo-384.png",
+            "type": "image/png",
+            "sizes": "384x384"
+        },
+        {
+            "src": "/img/logo-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "id": "/index.html",
+    "start_url": "/index.html",
+    "background_color": "#f0f0f0",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#f0f0f0",
+    "description": "The Pirate Bay App"
+}

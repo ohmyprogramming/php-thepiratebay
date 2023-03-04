@@ -1,0 +1,1 @@
+Log files are stored here. For example, if the cURL handle in the /ajax/proxy.php fails, contents will be printed here.

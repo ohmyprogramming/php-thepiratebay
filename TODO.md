@@ -1,0 +1,3 @@
+- [X] ajax/proxy.php should log error information in logs folder
+- [ ] loading circle when requesting app.search() until the results are returned
+- [ ] app.search() timeout should hide the loading circle and show timeout error
